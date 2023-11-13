@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "culoc"
+version = "0.1.0"
+description = "culoc is a file length analyzer with an curses interface"
+authors = ["Gleb Shmarov <i@yadotrof.me>"]
+readme = "README.md"
+packages = [{include = "culoc"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
